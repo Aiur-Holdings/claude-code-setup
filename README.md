@@ -8,6 +8,7 @@ Battle-tested rules, templates, and workflow patterns for AI-assisted developmen
 ai-dev-setup/
 ├── README.md                  # You are here
 ├── INSTALL.md                 # Per-agent wiring instructions
+├── PLAYBOOK.md                # Step-by-step: which workflow to run at each stage
 ├── REPO-STRUCTURE.md          # Recommended project layout for AI-assisted dev
 ├── global-preferences.md      # Personal working style (your global agent config)
 ├── rules/
@@ -60,13 +61,14 @@ These rules encode a specific development philosophy:
 
 ## Quick Start
 
-1. Read `INSTALL.md` for your specific agent
-2. Copy `global-preferences.md` into your agent's global config location
-3. Copy `rules/project.md` into your project and fill in the `<!-- CUSTOMIZE -->` sections
-4. Copy additional `rules/` files as needed for your stack
-5. Copy `workflows/` into your project — these are the actual prompts that drive the dev process
-6. Copy `templates/` into your project for sprint planning and delegation
-7. Read `REPO-STRUCTURE.md` for how to organize your project
+1. **Read `PLAYBOOK.md`** — the end-to-end guide: which workflow to run, when, and why
+2. Read `INSTALL.md` for your specific agent's setup
+3. Copy `global-preferences.md` into your agent's global config location
+4. Copy `rules/project.md` into your project and fill in the `<!-- CUSTOMIZE -->` sections
+5. Copy additional `rules/` files as needed for your stack
+6. Copy `workflows/` into your project — these are the actual prompts that drive the dev process
+7. Copy `templates/` into your project for sprint planning and delegation
+8. Read `REPO-STRUCTURE.md` for how to organize your project
 
 ## Customization
 
